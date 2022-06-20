@@ -1,6 +1,6 @@
 # Vaults
 
-A simple vault implementation.
+A simple vault implementation to farm yield on SushiSwap.
 
 ## Start docker service
 
