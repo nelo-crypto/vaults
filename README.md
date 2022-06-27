@@ -1,6 +1,6 @@
 # Vaults
 
-A simple vault implementation to farm yield on SushiSwap.
+This is an EVM simple private vault implementation to farm yield on any *MasterChef/Uniswap* based DEX. There is a concrete example with SushiSwap but should be easy to implement other exchanges and also use the base contracts for other types of vaults besides yield/DEX.
 
 ## Start docker service
 
@@ -23,7 +23,7 @@ sudo docker run -it --name <container-name> <image-name> /bin/sh;
 ## Set private key `env` variable inside the Docker container
 
 ```bash
-export PRIVATE_KEY=<PrivateKey>
+export PRIVATE_KEY=<private-key>
 ```
 
 ## Compiling the contracts
